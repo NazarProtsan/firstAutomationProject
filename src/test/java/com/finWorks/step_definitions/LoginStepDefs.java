@@ -20,9 +20,9 @@ public class LoginStepDefs {
         if(userType.equalsIgnoreCase("POS_manager")){
             username = ConfigurationReader.getProperty("POS_manager");
             password = ConfigurationReader.getProperty("POSM_password");
-        }else if(userType.equalsIgnoreCase("sales manager")){
-            username = ConfigurationReader.getProperty("sales_manager_username");
-            password = ConfigurationReader.getProperty("sales_manager_password");
+        }else if(userType.equalsIgnoreCase("Sales_Manager")){
+            username = ConfigurationReader.getProperty("Sales_Manager");
+            password = ConfigurationReader.getProperty("SMmanager");
         }else if(userType.equalsIgnoreCase("store manager")){
             username = ConfigurationReader.getProperty("store_manager_username");
             password = ConfigurationReader.getProperty("store_manager_password");
