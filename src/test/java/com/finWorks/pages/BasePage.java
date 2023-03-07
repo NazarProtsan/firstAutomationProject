@@ -17,7 +17,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public abstract class BasePage {
+public  class BasePage {
+
+    @FindBy(xpath = "//a[@data-menu='445']")
+    public WebElement salesButton;
+
+
+
+
+
+
+
+
 
     @FindBy(css = "span.title-level-1")
     public List<WebElement> menuOptions;
