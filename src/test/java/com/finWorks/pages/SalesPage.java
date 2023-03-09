@@ -17,8 +17,10 @@ public class SalesPage {
     public WebElement selectallcheckbox;
 
     @FindBy(xpath = "//tr[@class='o_data_row']//input[@type='checkbox']")
-
     public List<WebElement> checkBoxesSales;
+
+    @FindBy (xpath = "//th[@class='o_column_sortable']")
+    public List<WebElement> menuOptions;
 
 
 }
