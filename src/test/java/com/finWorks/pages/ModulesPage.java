@@ -13,9 +13,10 @@ public class ModulesPage {
     }
 
     @FindBy(xpath = "//ul/li[@style='display: block;']")
-    public List<WebElement> list;
+    public List<WebElement> listOfModules;
+
 
     public int modulesCount(){
-        return list.size();
+        return listOfModules.size();
     }
 }
