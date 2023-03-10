@@ -26,6 +26,9 @@ public class LoginStepDefs {
         }else if(userType.equalsIgnoreCase("store manager")){
             username = ConfigurationReader.getProperty("store_manager_username");
             password = ConfigurationReader.getProperty("store_manager_password");
+        }else if(userType.equalsIgnoreCase("Event_manager")){
+            username = ConfigurationReader.getProperty("event_manager_username");
+            password = ConfigurationReader.getProperty("event_manager_password");
         }
         //send username and password and login
         new LoginPage().login(username,password);
