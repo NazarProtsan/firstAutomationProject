@@ -1,4 +1,4 @@
-@Nazar
+@Nazar @regression
 Feature: As a POS & sales manager, I want to access the Repairs page
   Background: the user is on the login page
     Given the user is on the login page

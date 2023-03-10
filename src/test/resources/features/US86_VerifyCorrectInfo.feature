@@ -1,4 +1,4 @@
-@Evgenia
+@Evgenia @regression
 Feature: As a manager, I should be able to get correct information on the Sales page.
 
   Background:

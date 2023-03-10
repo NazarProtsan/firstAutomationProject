@@ -1,4 +1,4 @@
-@Roza
+@Roza @regression
 Feature: Verify event manager access to 15 modules
   User Story: As an Event manager, I want to access to the 15 different modules.
 

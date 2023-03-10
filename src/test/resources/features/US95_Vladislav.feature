@@ -1,4 +1,4 @@
-@vlad
+@Vlad @regression
 Feature: As POS & Sales manager, I want to manage quotations on the Sales page
 Background:User is already in the log in page
   Given the user is on the login page
