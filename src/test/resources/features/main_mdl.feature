@@ -1,4 +1,3 @@
-@Raghad @regression
 Feature: As a POS manager,  I should be able to access to the main modules.
 
   Scenario:
