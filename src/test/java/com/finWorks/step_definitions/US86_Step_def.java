@@ -5,6 +5,7 @@ import com.finWorks.pages.LoginPage;
 import com.finWorks.pages.SalesPage;
 import com.finWorks.utilities.BrowserUtils;
 import com.finWorks.utilities.Driver;
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
@@ -31,6 +32,7 @@ public class US86_Step_def {
         wait.until(ExpectedConditions.visibilityOf(homePage.salesModule));
         homePage.salesModule.click();
         BrowserUtils.sleep(5);
+
     }
 
     @Then("user sees six columns")

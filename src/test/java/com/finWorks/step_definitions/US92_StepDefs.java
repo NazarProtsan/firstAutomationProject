@@ -22,6 +22,7 @@ public class US92_StepDefs {
         System.out.println(userName);
         BrowserUtils.sleep(2);
 
+
         Assert.assertTrue(roza.logged_avatar.getText().contains(userName));
 
 

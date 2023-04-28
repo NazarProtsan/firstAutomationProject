@@ -24,3 +24,9 @@ Feature: POS view product order feature
     And POS clicks on Order Ref checkbox
     Then POS clicks on Action drop down button
     And POS sees three options: Import, Export, Delete
+
+
+
+
+
+
