@@ -60,10 +60,10 @@
 
                 <configuration>
                     <parallel>methods</parallel>
-                    <useUnlimitedThreads>false</useUnlimitedThreads>
-                    <threadCount>1</threadCount>
+                    <useUnlimitedThreads>true</useUnlimitedThreads>
+                    <threadCount>4</threadCount>
 
-                    <perCoreThreadCount>false</perCoreThreadCount>
+                    <perCoreThreadCount>true</perCoreThreadCount>
                     <!--    <testFailureIgnore>true</testFailureIgnore> -->
                     <includes>
                         <include>**/CukesRunner*.java</include>
